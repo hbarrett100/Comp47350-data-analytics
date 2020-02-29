@@ -1,0 +1,13 @@
+,count,unique,top,freq,%missing
+Name_Intake,694,603,Max,8,30.599999999999998
+FoundLocation,1000,766,Austin (TX),188,0.0
+IntakeType,1000,5,Stray,708,0.0
+IntakeCondition,1000,5,Normal,891,0.0
+AnimalType_Intake,1000,4,Dog,563,0.0
+SexuponIntake,1000,5,Intact Male,332,0.0
+AgeuponIntake,1000,43,1 year,172,0.0
+Breed_Intake,1000,211,Domestic Shorthair Mix,259,0.0
+Color_Intake,1000,115,Black/White,106,0.0
+SexuponOutcome,1000,5,Neutered Male,346,0.0
+AgeuponOutcome,1000,42,1 year,170,0.0
+binary_outcome,1000,2,0,920,0.0
