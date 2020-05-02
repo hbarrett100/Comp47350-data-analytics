@@ -1,0 +1,36 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="IntakeType_Wildlife <= 0.5\ngini = 0.147\nsamples = 700\nvalue = [644, 56]"] ;
+1 [label="SickOrInjured_1 <= 0.5\ngini = 0.093\nsamples = 677\nvalue = [644, 33]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="BreedOriginal_Other Animal Breeds <= 0.5\ngini = 0.05\nsamples = 623\nvalue = [607, 16]"] ;
+1 -> 2 ;
+3 [label="BreedOriginal_Pit Bull <= 0.5\ngini = 0.035\nsamples = 609\nvalue = [598, 11]"] ;
+2 -> 3 ;
+4 [label="gini = 0.025\nsamples = 563\nvalue = [556, 7]"] ;
+3 -> 4 ;
+5 [label="gini = 0.159\nsamples = 46\nvalue = [42, 4]"] ;
+3 -> 5 ;
+6 [label="NeutereduponOutcome_Unknown <= 0.5\ngini = 0.459\nsamples = 14\nvalue = [9, 5]"] ;
+2 -> 6 ;
+7 [label="gini = 0.0\nsamples = 5\nvalue = [5, 0]"] ;
+6 -> 7 ;
+8 [label="gini = 0.494\nsamples = 9\nvalue = [4, 5]"] ;
+6 -> 8 ;
+9 [label="Name_Provided_Yes <= 0.5\ngini = 0.431\nsamples = 54\nvalue = [37, 17]"] ;
+1 -> 9 ;
+10 [label="NeutereduponOutcome_True <= 0.5\ngini = 0.472\nsamples = 21\nvalue = [8, 13]"] ;
+9 -> 10 ;
+11 [label="gini = 0.415\nsamples = 17\nvalue = [5, 12]"] ;
+10 -> 11 ;
+12 [label="gini = 0.375\nsamples = 4\nvalue = [3, 1]"] ;
+10 -> 12 ;
+13 [label="IntakeType_Owner Surrender <= 0.5\ngini = 0.213\nsamples = 33\nvalue = [29, 4]"] ;
+9 -> 13 ;
+14 [label="gini = 0.0\nsamples = 25\nvalue = [25, 0]"] ;
+13 -> 14 ;
+15 [label="gini = 0.5\nsamples = 8\nvalue = [4, 4]"] ;
+13 -> 15 ;
+16 [label="gini = 0.0\nsamples = 23\nvalue = [0, 23]"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
